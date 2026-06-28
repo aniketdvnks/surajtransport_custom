@@ -25,8 +25,8 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/surajtransport_custom/css/surajtransport_custom.css"
-# app_include_js = "/assets/surajtransport_custom/js/surajtransport_custom.js"
+app_include_css = "/assets/surajtransport_custom/css/report_row_highlight.css"
+app_include_js = "/assets/surajtransport_custom/js/report_row_highlight.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/surajtransport_custom/css/surajtransport_custom.css"
@@ -129,9 +129,9 @@ app_license = "mit"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"VehicleLog": "surajtransport_custom.surajtransport_custom.custom_method.VehicleLog"
+}
 
 # Document Events
 # ---------------

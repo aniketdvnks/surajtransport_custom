@@ -1,0 +1,18 @@
+/* System-wide datatable row hover and selection highlighting */
+
+/* Hover: subtle bg on all scrollable body rows */
+.dt-scrollable .dt-row:hover .dt-cell {
+	background-color: var(--highlight-color) !important;
+	cursor: pointer;
+	transition: background-color 0.1s;
+}
+
+/* Selected row: light blue to distinguish from hover */
+.dt-scrollable .dt-row--st-selected .dt-cell {
+	background-color: var(--bg-light-blue) !important;
+}
+
+/* Keep selected bg on hover-over-selected, slightly darker */
+.dt-scrollable .dt-row--st-selected:hover .dt-cell {
+	background-color: var(--blue-100, #c8e6ff) !important;
+}
