@@ -25,8 +25,8 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/surajtransport_custom/css/report_row_highlight.css"
-app_include_js = "/assets/surajtransport_custom/js/report_row_highlight.js"
+app_include_css = "/assets/surajtransport_custom/css/report_row_highlight.bundle.css"
+app_include_js = "/assets/surajtransport_custom/js/report_row_highlight.bundle.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/surajtransport_custom/css/surajtransport_custom.css"
